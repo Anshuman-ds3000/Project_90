@@ -1,0 +1,145 @@
+body {
+    background-image: url("https://images.hdqwalls.com/wallpapers/clash-of-clans-clan-wars-img.jpg");
+    background-position: center;
+    height: 100vh;
+
+}
+
+.container
+{
+    display:flex;
+    flex-direction: row;  
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family:cursive;
+    font-size: 150px;
+    margin:auto;
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 6px 7px rgb(39, 28, 28);
+}
+
+ #bar
+{
+    background-image: url('./bar.jpg');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position:top;
+
+    
+  height: 500px;
+  width: 300px;
+  background-color:papayawhip;
+  border: 2px solid black;
+  box-sizing: border-box;
+  box-shadow: 10px 10px black;
+  padding:30px ;
+  border-radius: 20px 20px 20px 20px;
+
+}
+h3
+{
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 50px ;
+    padding-top: -20px;
+}
+
+h5
+{
+    color: orange;
+    padding-top: 143px;
+    padding-left: 90px;
+}
+p
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+}
+
+#arc
+{
+    background-image: url('./arc.jpg');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position:top;
+
+    
+  height: 500px;
+  width: 300px;
+  background-color:papayawhip;
+  border: 2px solid black;
+  box-sizing: border-box;
+  box-shadow: 10px 10px black;
+  padding:30px ;
+  border-radius: 20px 20px 20px 20px;
+}
+.lv
+{
+    padding-top: 167px;
+}
+
+#gob
+{
+    background-image: url('./gob.jpg');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position:top;
+
+    
+  height: 500px;
+  width: 300px;
+  background-color:papayawhip;
+  border: 2px solid black;
+  box-sizing: border-box;
+  box-shadow: 10px 10px black;
+  padding:30px ;
+  border-radius: 20px 20px 20px 20px;
+}
+#hi
+{
+    padding-left: 80px;
+}
+
+
+/*.link
+{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 80px;
+    background-color: goldenrod;
+}*/
+
+a:link, a:visited {
+    background-color: goldenrod;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 55px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  a:hover, a:active {
+    background-color: goldenrod;
+    margin-left: 55px;
+  }
+
+  #bar:hover
+  {
+    transform: scale(1.1, 1.1)
+  }
+
+  #arc:hover
+  {
+    transform: scale(1.1, 1.1)
+  }
+
+  #gob:hover
+  {
+    transform: scale(1.1, 1.1)
+  }
